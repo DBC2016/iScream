@@ -20,22 +20,6 @@
 		1FADFB501B25157C001CA00E /* iScream.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 1FADFB3F1B25157C001CA00E /* iScream.sqlite-shm */; };
 		1FADFB511B25157C001CA00E /* iScream.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 1FADFB401B25157C001CA00E /* iScream.sqlite-wal */; };
 		1FADFB521B25157C001CA00E /* iScream.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FADFB411B25157C001CA00E /* iScream.xcdatamodeld */; };
-		62736D2E1CC5737100FA09DF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62736D2D1CC5737100FA09DF /* DetailViewController.m */; };
-		62DCB4D21CC5EC9400150D9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DCB4B91CC5EC9400150D9E /* AppDelegate.m */; };
-		62DCB4D31CC5EC9400150D9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62DCB4BA1CC5EC9400150D9E /* LaunchScreen.xib */; };
-		62DCB4D41CC5EC9400150D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62DCB4BC1CC5EC9400150D9E /* Main.storyboard */; };
-		62DCB4D51CC5EC9400150D9E /* Flavors.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DCB4BF1CC5EC9400150D9E /* Flavors.m */; };
-		62DCB4D61CC5EC9400150D9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DCB4C01CC5EC9400150D9E /* Images.xcassets */; };
-		62DCB4D71CC5EC9400150D9E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62DCB4C11CC5EC9400150D9E /* Info.plist */; };
-		62DCB4D81CC5EC9400150D9E /* InventoryItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DCB4C31CC5EC9400150D9E /* InventoryItems.m */; };
-		62DCB4D91CC5EC9400150D9E /* iScream.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 62DCB4C41CC5EC9400150D9E /* iScream.sqlite */; };
-		62DCB4DA1CC5EC9400150D9E /* iScream.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 62DCB4C51CC5EC9400150D9E /* iScream.sqlite-shm */; };
-		62DCB4DB1CC5EC9400150D9E /* iScream.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 62DCB4C61CC5EC9400150D9E /* iScream.sqlite-wal */; };
-		62DCB4DC1CC5EC9400150D9E /* iScream.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62DCB4C71CC5EC9400150D9E /* iScream.xcdatamodeld */; };
-		62DCB4DD1CC5EC9400150D9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DCB4C91CC5EC9400150D9E /* main.m */; };
-		62DCB4DE1CC5EC9400150D9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DCB4CB1CC5EC9400150D9E /* ViewController.m */; };
-		62DCB4DF1CC5EC9400150D9E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62DCB4D01CC5EC9400150D9E /* Info.plist */; };
-		62DCB4E01CC5EC9400150D9E /* iScreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DCB4D11CC5EC9400150D9E /* iScreamTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,20 +29,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1FADFB021B25148D001CA00E;
 			remoteInfo = iScream;
-		};
-		62DCB4E31CC5EC9400150D9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62DCB4CC1CC5EC9400150D9E /* iScream.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1FADFB031B25148D001CA00E;
-			remoteInfo = iScream;
-		};
-		62DCB4E51CC5EC9400150D9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62DCB4CC1CC5EC9400150D9E /* iScream.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1FADFB1F1B25148D001CA00E;
-			remoteInfo = iScreamTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -84,28 +54,6 @@
 		1FADFB3F1B25157C001CA00E /* iScream.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iScream.sqlite-shm"; sourceTree = "<group>"; };
 		1FADFB401B25157C001CA00E /* iScream.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iScream.sqlite-wal"; sourceTree = "<group>"; };
 		1FADFB421B25157C001CA00E /* Table_View_Intro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Table_View_Intro.xcdatamodel; sourceTree = "<group>"; };
-		62736D2C1CC5737100FA09DF /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		62736D2D1CC5737100FA09DF /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		62DCB4B81CC5EC9400150D9E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		62DCB4B91CC5EC9400150D9E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		62DCB4BB1CC5EC9400150D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		62DCB4BD1CC5EC9400150D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		62DCB4BE1CC5EC9400150D9E /* Flavors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flavors.h; sourceTree = "<group>"; };
-		62DCB4BF1CC5EC9400150D9E /* Flavors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flavors.m; sourceTree = "<group>"; };
-		62DCB4C01CC5EC9400150D9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		62DCB4C11CC5EC9400150D9E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62DCB4C21CC5EC9400150D9E /* InventoryItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InventoryItems.h; sourceTree = "<group>"; };
-		62DCB4C31CC5EC9400150D9E /* InventoryItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InventoryItems.m; sourceTree = "<group>"; };
-		62DCB4C41CC5EC9400150D9E /* iScream.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iScream.sqlite; sourceTree = "<group>"; };
-		62DCB4C51CC5EC9400150D9E /* iScream.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iScream.sqlite-shm"; sourceTree = "<group>"; };
-		62DCB4C61CC5EC9400150D9E /* iScream.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iScream.sqlite-wal"; sourceTree = "<group>"; };
-		62DCB4C81CC5EC9400150D9E /* Table_View_Intro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Table_View_Intro.xcdatamodel; sourceTree = "<group>"; };
-		62DCB4C91CC5EC9400150D9E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		62DCB4CA1CC5EC9400150D9E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		62DCB4CB1CC5EC9400150D9E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		62DCB4CC1CC5EC9400150D9E /* iScream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = iScream.xcodeproj; sourceTree = "<group>"; };
-		62DCB4D01CC5EC9400150D9E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62DCB4D11CC5EC9400150D9E /* iScreamTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iScreamTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,9 +99,6 @@
 				1FADFB0B1B25148D001CA00E /* AppDelegate.m */,
 				1FADFB101B25148D001CA00E /* ViewController.h */,
 				1FADFB111B25148D001CA00E /* ViewController.m */,
-				62DCB4B61CC5EC9400150D9E /* iScream */,
-				62736D2C1CC5737100FA09DF /* DetailViewController.h */,
-				62736D2D1CC5737100FA09DF /* DetailViewController.m */,
 				1FADFB131B25148D001CA00E /* Main.storyboard */,
 				1FADFB161B25148D001CA00E /* Images.xcassets */,
 				1FADFB531B251592001CA00E /* Data */,
@@ -202,58 +147,6 @@
 				1FADFB401B25157C001CA00E /* iScream.sqlite-wal */,
 			);
 			name = Data;
-			sourceTree = "<group>";
-		};
-		62DCB4B61CC5EC9400150D9E /* iScream */ = {
-			isa = PBXGroup;
-			children = (
-				62DCB4B71CC5EC9400150D9E /* iScream */,
-				62DCB4CC1CC5EC9400150D9E /* iScream.xcodeproj */,
-				62DCB4CF1CC5EC9400150D9E /* iScreamTests */,
-			);
-			path = iScream;
-			sourceTree = "<group>";
-		};
-		62DCB4B71CC5EC9400150D9E /* iScream */ = {
-			isa = PBXGroup;
-			children = (
-				62DCB4B81CC5EC9400150D9E /* AppDelegate.h */,
-				62DCB4B91CC5EC9400150D9E /* AppDelegate.m */,
-				62DCB4BA1CC5EC9400150D9E /* LaunchScreen.xib */,
-				62DCB4BC1CC5EC9400150D9E /* Main.storyboard */,
-				62DCB4BE1CC5EC9400150D9E /* Flavors.h */,
-				62DCB4BF1CC5EC9400150D9E /* Flavors.m */,
-				62DCB4C01CC5EC9400150D9E /* Images.xcassets */,
-				62DCB4C11CC5EC9400150D9E /* Info.plist */,
-				62DCB4C21CC5EC9400150D9E /* InventoryItems.h */,
-				62DCB4C31CC5EC9400150D9E /* InventoryItems.m */,
-				62DCB4C41CC5EC9400150D9E /* iScream.sqlite */,
-				62DCB4C51CC5EC9400150D9E /* iScream.sqlite-shm */,
-				62DCB4C61CC5EC9400150D9E /* iScream.sqlite-wal */,
-				62DCB4C71CC5EC9400150D9E /* iScream.xcdatamodeld */,
-				62DCB4C91CC5EC9400150D9E /* main.m */,
-				62DCB4CA1CC5EC9400150D9E /* ViewController.h */,
-				62DCB4CB1CC5EC9400150D9E /* ViewController.m */,
-			);
-			path = iScream;
-			sourceTree = "<group>";
-		};
-		62DCB4CD1CC5EC9400150D9E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				62DCB4E41CC5EC9400150D9E /* iScream.app */,
-				62DCB4E61CC5EC9400150D9E /* iScreamTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		62DCB4CF1CC5EC9400150D9E /* iScreamTests */ = {
-			isa = PBXGroup;
-			children = (
-				62DCB4D01CC5EC9400150D9E /* Info.plist */,
-				62DCB4D11CC5EC9400150D9E /* iScreamTests.m */,
-			);
-			path = iScreamTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,12 +216,6 @@
 			mainGroup = 1FADFAFA1B25148D001CA00E;
 			productRefGroup = 1FADFB041B25148D001CA00E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 62DCB4CD1CC5EC9400150D9E /* Products */;
-					ProjectRef = 62DCB4CC1CC5EC9400150D9E /* iScream.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				1FADFB021B25148D001CA00E /* iScream */,
@@ -337,41 +224,16 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		62DCB4E41CC5EC9400150D9E /* iScream.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = iScream.app;
-			remoteRef = 62DCB4E31CC5EC9400150D9E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		62DCB4E61CC5EC9400150D9E /* iScreamTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = iScreamTests.xctest;
-			remoteRef = 62DCB4E51CC5EC9400150D9E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		1FADFB011B25148D001CA00E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62DCB4DB1CC5EC9400150D9E /* iScream.sqlite-wal in Resources */,
-				62DCB4D61CC5EC9400150D9E /* Images.xcassets in Resources */,
 				1FADFB151B25148D001CA00E /* Main.storyboard in Resources */,
 				1FADFB4F1B25157C001CA00E /* iScream.sqlite in Resources */,
 				1FADFB511B25157C001CA00E /* iScream.sqlite-wal in Resources */,
-				62DCB4D41CC5EC9400150D9E /* Main.storyboard in Resources */,
-				62DCB4DF1CC5EC9400150D9E /* Info.plist in Resources */,
-				62DCB4D31CC5EC9400150D9E /* LaunchScreen.xib in Resources */,
-				62DCB4D91CC5EC9400150D9E /* iScream.sqlite in Resources */,
-				62DCB4DA1CC5EC9400150D9E /* iScream.sqlite-shm in Resources */,
 				1FADFB1A1B25148D001CA00E /* LaunchScreen.xib in Resources */,
 				1FADFB501B25157C001CA00E /* iScream.sqlite-shm in Resources */,
-				62DCB4D71CC5EC9400150D9E /* Info.plist in Resources */,
 				1FADFB171B25148D001CA00E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,19 +253,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FADFB0C1B25148D001CA00E /* AppDelegate.m in Sources */,
-				62DCB4D51CC5EC9400150D9E /* Flavors.m in Sources */,
 				1FADFB431B25157C001CA00E /* Flavors.m in Sources */,
-				62DCB4DC1CC5EC9400150D9E /* iScream.xcdatamodeld in Sources */,
-				62DCB4D81CC5EC9400150D9E /* InventoryItems.m in Sources */,
 				1FADFB121B25148D001CA00E /* ViewController.m in Sources */,
-				62DCB4E01CC5EC9400150D9E /* iScreamTests.m in Sources */,
-				62DCB4DE1CC5EC9400150D9E /* ViewController.m in Sources */,
 				1FADFB4E1B25157C001CA00E /* InventoryItems.m in Sources */,
-				62DCB4D21CC5EC9400150D9E /* AppDelegate.m in Sources */,
 				1FADFB521B25157C001CA00E /* iScream.xcdatamodeld in Sources */,
 				1FADFB091B25148D001CA00E /* main.m in Sources */,
-				62DCB4DD1CC5EC9400150D9E /* main.m in Sources */,
-				62736D2E1CC5737100FA09DF /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,22 +294,6 @@
 				1FADFB191B25148D001CA00E /* Base */,
 			);
 			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		62DCB4BA1CC5EC9400150D9E /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62DCB4BB1CC5EC9400150D9E /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		62DCB4BC1CC5EC9400150D9E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62DCB4BD1CC5EC9400150D9E /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -639,16 +477,6 @@
 				1FADFB421B25157C001CA00E /* Table_View_Intro.xcdatamodel */,
 			);
 			currentVersion = 1FADFB421B25157C001CA00E /* Table_View_Intro.xcdatamodel */;
-			path = iScream.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		62DCB4C71CC5EC9400150D9E /* iScream.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				62DCB4C81CC5EC9400150D9E /* Table_View_Intro.xcdatamodel */,
-			);
-			currentVersion = 62DCB4C81CC5EC9400150D9E /* Table_View_Intro.xcdatamodel */;
 			path = iScream.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
