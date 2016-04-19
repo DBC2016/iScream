@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FADFB091B25148D001CA00E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FADFB081B25148D001CA00E /* main.m */; };
+		1FADFB0C1B25148D001CA00E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FADFB0B1B25148D001CA00E /* AppDelegate.m */; };
+		1FADFB121B25148D001CA00E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FADFB111B25148D001CA00E /* ViewController.m */; };
+		1FADFB151B25148D001CA00E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FADFB131B25148D001CA00E /* Main.storyboard */; };
+		1FADFB171B25148D001CA00E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FADFB161B25148D001CA00E /* Images.xcassets */; };
+		1FADFB1A1B25148D001CA00E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FADFB181B25148D001CA00E /* LaunchScreen.xib */; };
+		1FADFB261B25148D001CA00E /* iScreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FADFB251B25148D001CA00E /* iScreamTests.m */; };
+		1FADFB431B25157C001CA00E /* Flavors.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FADFB301B25157C001CA00E /* Flavors.m */; };
+		1FADFB4E1B25157C001CA00E /* InventoryItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FADFB3D1B25157C001CA00E /* InventoryItems.m */; };
+		1FADFB4F1B25157C001CA00E /* iScream.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1FADFB3E1B25157C001CA00E /* iScream.sqlite */; };
+		1FADFB501B25157C001CA00E /* iScream.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 1FADFB3F1B25157C001CA00E /* iScream.sqlite-shm */; };
+		1FADFB511B25157C001CA00E /* iScream.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 1FADFB401B25157C001CA00E /* iScream.sqlite-wal */; };
+		1FADFB521B25157C001CA00E /* iScream.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FADFB411B25157C001CA00E /* iScream.xcdatamodeld */; };
+		62736D2E1CC5737100FA09DF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62736D2D1CC5737100FA09DF /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FADFB201B25148D001CA00E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FADFAFB1B25148D001CA00E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FADFB021B25148D001CA00E;
+			remoteInfo = iScream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FADFB031B25148D001CA00E /* iScream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iScream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FADFB071B25148D001CA00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FADFB081B25148D001CA00E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FADFB0A1B25148D001CA00E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FADFB0B1B25148D001CA00E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FADFB101B25148D001CA00E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FADFB111B25148D001CA00E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FADFB141B25148D001CA00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FADFB161B25148D001CA00E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FADFB191B25148D001CA00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1FADFB1F1B25148D001CA00E /* iScreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iScreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FADFB241B25148D001CA00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FADFB251B25148D001CA00E /* iScreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iScreamTests.m; sourceTree = "<group>"; };
+		1FADFB2F1B25157C001CA00E /* Flavors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flavors.h; sourceTree = "<group>"; };
+		1FADFB301B25157C001CA00E /* Flavors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flavors.m; sourceTree = "<group>"; };
+		1FADFB3C1B25157C001CA00E /* InventoryItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InventoryItems.h; sourceTree = "<group>"; };
+		1FADFB3D1B25157C001CA00E /* InventoryItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InventoryItems.m; sourceTree = "<group>"; };
+		1FADFB3E1B25157C001CA00E /* iScream.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iScream.sqlite; sourceTree = "<group>"; };
+		1FADFB3F1B25157C001CA00E /* iScream.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iScream.sqlite-shm"; sourceTree = "<group>"; };
+		1FADFB401B25157C001CA00E /* iScream.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iScream.sqlite-wal"; sourceTree = "<group>"; };
+		1FADFB421B25157C001CA00E /* Table_View_Intro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Table_View_Intro.xcdatamodel; sourceTree = "<group>"; };
+		62736D2C1CC5737100FA09DF /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		62736D2D1CC5737100FA09DF /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FADFB001B25148D001CA00E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FADFB1C1B25148D001CA00E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FADFAFA1B25148D001CA00E = {
+			isa = PBXGroup;
+			children = (
+				1FADFB051B25148D001CA00E /* iScream */,
+				1FADFB221B25148D001CA00E /* iScreamTests */,
+				1FADFB041B25148D001CA00E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FADFB041B25148D001CA00E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FADFB031B25148D001CA00E /* iScream.app */,
+				1FADFB1F1B25148D001CA00E /* iScreamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FADFB051B25148D001CA00E /* iScream */ = {
+			isa = PBXGroup;
+			children = (
+				1FADFB0A1B25148D001CA00E /* AppDelegate.h */,
+				1FADFB0B1B25148D001CA00E /* AppDelegate.m */,
+				1FADFB101B25148D001CA00E /* ViewController.h */,
+				1FADFB111B25148D001CA00E /* ViewController.m */,
+				62736D2C1CC5737100FA09DF /* DetailViewController.h */,
+				62736D2D1CC5737100FA09DF /* DetailViewController.m */,
+				1FADFB131B25148D001CA00E /* Main.storyboard */,
+				1FADFB161B25148D001CA00E /* Images.xcassets */,
+				1FADFB531B251592001CA00E /* Data */,
+				1FADFB181B25148D001CA00E /* LaunchScreen.xib */,
+				1FADFB061B25148D001CA00E /* Supporting Files */,
+			);
+			path = iScream;
+			sourceTree = "<group>";
+		};
+		1FADFB061B25148D001CA00E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FADFB071B25148D001CA00E /* Info.plist */,
+				1FADFB081B25148D001CA00E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FADFB221B25148D001CA00E /* iScreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FADFB251B25148D001CA00E /* iScreamTests.m */,
+				1FADFB231B25148D001CA00E /* Supporting Files */,
+			);
+			path = iScreamTests;
+			sourceTree = "<group>";
+		};
+		1FADFB231B25148D001CA00E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FADFB241B25148D001CA00E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FADFB531B251592001CA00E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1FADFB411B25157C001CA00E /* iScream.xcdatamodeld */,
+				1FADFB2F1B25157C001CA00E /* Flavors.h */,
+				1FADFB301B25157C001CA00E /* Flavors.m */,
+				1FADFB3C1B25157C001CA00E /* InventoryItems.h */,
+				1FADFB3D1B25157C001CA00E /* InventoryItems.m */,
+				1FADFB3E1B25157C001CA00E /* iScream.sqlite */,
+				1FADFB3F1B25157C001CA00E /* iScream.sqlite-shm */,
+				1FADFB401B25157C001CA00E /* iScream.sqlite-wal */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FADFB021B25148D001CA00E /* iScream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FADFB291B25148D001CA00E /* Build configuration list for PBXNativeTarget "iScream" */;
+			buildPhases = (
+				1FADFAFF1B25148D001CA00E /* Sources */,
+				1FADFB001B25148D001CA00E /* Frameworks */,
+				1FADFB011B25148D001CA00E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iScream;
+			productName = iScream;
+			productReference = 1FADFB031B25148D001CA00E /* iScream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FADFB1E1B25148D001CA00E /* iScreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FADFB2C1B25148D001CA00E /* Build configuration list for PBXNativeTarget "iScreamTests" */;
+			buildPhases = (
+				1FADFB1B1B25148D001CA00E /* Sources */,
+				1FADFB1C1B25148D001CA00E /* Frameworks */,
+				1FADFB1D1B25148D001CA00E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FADFB211B25148D001CA00E /* PBXTargetDependency */,
+			);
+			name = iScreamTests;
+			productName = iScreamTests;
+			productReference = 1FADFB1F1B25148D001CA00E /* iScreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FADFAFB1B25148D001CA00E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = VizNetwork;
+				TargetAttributes = {
+					1FADFB021B25148D001CA00E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1FADFB1E1B25148D001CA00E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1FADFB021B25148D001CA00E;
+					};
+				};
+			};
+			buildConfigurationList = 1FADFAFE1B25148D001CA00E /* Build configuration list for PBXProject "iScream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FADFAFA1B25148D001CA00E;
+			productRefGroup = 1FADFB041B25148D001CA00E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FADFB021B25148D001CA00E /* iScream */,
+				1FADFB1E1B25148D001CA00E /* iScreamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FADFB011B25148D001CA00E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FADFB151B25148D001CA00E /* Main.storyboard in Resources */,
+				1FADFB4F1B25157C001CA00E /* iScream.sqlite in Resources */,
+				1FADFB511B25157C001CA00E /* iScream.sqlite-wal in Resources */,
+				1FADFB1A1B25148D001CA00E /* LaunchScreen.xib in Resources */,
+				1FADFB501B25157C001CA00E /* iScream.sqlite-shm in Resources */,
+				1FADFB171B25148D001CA00E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FADFB1D1B25148D001CA00E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FADFAFF1B25148D001CA00E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FADFB0C1B25148D001CA00E /* AppDelegate.m in Sources */,
+				1FADFB431B25157C001CA00E /* Flavors.m in Sources */,
+				1FADFB121B25148D001CA00E /* ViewController.m in Sources */,
+				1FADFB4E1B25157C001CA00E /* InventoryItems.m in Sources */,
+				1FADFB521B25157C001CA00E /* iScream.xcdatamodeld in Sources */,
+				1FADFB091B25148D001CA00E /* main.m in Sources */,
+				62736D2E1CC5737100FA09DF /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FADFB1B1B25148D001CA00E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FADFB261B25148D001CA00E /* iScreamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FADFB211B25148D001CA00E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FADFB021B25148D001CA00E /* iScream */;
+			targetProxy = 1FADFB201B25148D001CA00E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FADFB131B25148D001CA00E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FADFB141B25148D001CA00E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FADFB181B25148D001CA00E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FADFB191B25148D001CA00E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FADFB271B25148D001CA00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FADFB281B25148D001CA00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FADFB2A1B25148D001CA00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iScream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viznetwork.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FADFB2B1B25148D001CA00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iScream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viznetwork.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FADFB2D1B25148D001CA00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iScreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viznetwork.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iScream.app/iScream";
+			};
+			name = Debug;
+		};
+		1FADFB2E1B25148D001CA00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iScreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viznetwork.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iScream.app/iScream";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FADFAFE1B25148D001CA00E /* Build configuration list for PBXProject "iScream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FADFB271B25148D001CA00E /* Debug */,
+				1FADFB281B25148D001CA00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FADFB291B25148D001CA00E /* Build configuration list for PBXNativeTarget "iScream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FADFB2A1B25148D001CA00E /* Debug */,
+				1FADFB2B1B25148D001CA00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FADFB2C1B25148D001CA00E /* Build configuration list for PBXNativeTarget "iScreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FADFB2D1B25148D001CA00E /* Debug */,
+				1FADFB2E1B25148D001CA00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1FADFB411B25157C001CA00E /* iScream.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1FADFB421B25157C001CA00E /* Table_View_Intro.xcdatamodel */,
+			);
+			currentVersion = 1FADFB421B25157C001CA00E /* Table_View_Intro.xcdatamodel */;
+			path = iScream.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1FADFAFB1B25148D001CA00E /* Project object */;
+}
